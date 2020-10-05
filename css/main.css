@@ -470,6 +470,7 @@ button {
 }
 
 .reviews .icon {
+  display: flex;
   width: 15px;
   height: 25px;
 }
@@ -536,4 +537,86 @@ button {
 
 .list-reviews .social-list:not(:last-child) {
   margin-right: 4.8px;
+}
+
+/* footer */
+
+/* registration */
+
+.registration .conteiner {
+  display: block;
+  padding-bottom: 74px;
+}
+
+.registration .title {
+  margin-bottom: 24px;
+
+  font-family: Oswald;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 1.49;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.registration .text-bolt {
+  font-weight: 700;
+}
+
+.registration .social-help {
+  margin-bottom: 54px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.21;
+  text-align: center;
+}
+
+.registration .messenger {
+  display: flex;
+  justify-content: center;
+}
+
+.messenger button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-left: 23px;
+  min-width: 331px;
+  height: 60px;
+  border-radius: 10px;
+  outline: none;
+  border: transparent;
+
+  color: #ffffff;
+}
+
+.messenger button:hover,
+.messenger button:focus {
+  filter: drop-shadow(0px 0px 20px #03e0eb);
+  cursor: pointer;
+}
+
+.messenger .telegram {
+  background-color: #309fdc;
+}
+.messenger .viber {
+  background-color: #7b519d;
+}
+
+.messenger .facebook {
+  background-color: #4173cd;
+}
+
+.registration .button:not(:last-child) {
+  margin-right: 26px;
+}
+
+.button div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
 }
