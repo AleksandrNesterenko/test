@@ -269,7 +269,7 @@ button {
   font-family: Oswald;
   font-weight: 300;
   font-size: 35px;
-  line-height: 1, 48;
+  line-height: 1.48;
 
   text-align: center;
   text-transform: uppercase;
@@ -623,6 +623,76 @@ button {
 
 /* footer-navigation */
 
+.footer-navigation .conteiner {
+  padding-top: 43px;
+  padding-bottom: 34px;
+  border-top: 1px solid rgba(221, 221, 221, 0.5);
+  border-bottom: 1px solid rgba(221, 221, 221, 0.5);
+}
+
 .footer-navigation .logo {
   display: block;
+  margin-right: 137px;
+}
+
+.footer-navigation .item-site {
+  margin-right: 78px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+}
+
+.footer-navigation .link-site:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.footer-navigation .item-programm {
+  width: 216px;
+  margin-right: 87px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+}
+
+.footer-navigation .link-programm:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.44;
+}
+.footer-navigation a {
+  color: #000000;
+}
+.footer-address .icon-flag {
+  margin-right: 10px;
+}
+
+.footer-navigation .social-item {
+  display: flex;
+  margin-top: 13px;
+}
+
+.footer-navigation .social-list:not(:last-child) {
+  display: flex;
+  margin-right: 11.55px;
+}
+.social-item a:hover,
+.social-item a:focus {
+  filter: drop-shadow(0px 4px 20px #03e0eb);
+}
+
+.footer-navigation .copyright {
+  display: flex;
+  padding-top: 28px;
+  padding-bottom: 26px;
+  justify-content: center;
 }
