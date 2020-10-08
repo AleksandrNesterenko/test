@@ -12,17 +12,19 @@
     <!-- header -->
     <header class="header">
       <div class="conteiner">
-        <a class="logo" href="./index.html"><img src="./images/header/logo.svg" alt="логотип компании" /></a>
-        <nav>
+       
+        <nav class="navigation">
           <ul class="item">
+            <li> <a class="logo" href="./index.html"><img src="./images/header/logo.svg" alt="логотип компании" /></a></li>
             <li class="link"><a href=""></a>Для кого</li>
             <li class="link"><a href=""></a>Программа</li>
             <li class="link"><a href=""></a>Ваши результаты</li>
             <li class="link"><a href=""></a>Спикер</li>
             <li class="link"><a href=""></a>Отзывы</li>
+            <li class="link"><button type="button">Регистрация</button></li>
           </ul>
         </nav>
-        <button type="button">Регистрация</button>
+        
       </div>
       <!-- hero -->
 
@@ -36,26 +38,36 @@
             Онлайн-интенсив <span class="text-bolt-uppercase">Владимира Баженова</span><br />
             для трейдеров, инвесторов и управляющих
           </p>
+          
           <button class="hero-button" type="button">Хочу узнать как зарабатывать на бирже!</button>
+        
         </div>
       </section>
 
       <section class="results">
-        <div class="conteiner">
+        <div class="background-result-conteiner">
           <img class="background-results" src="./images/header/Vector.png" alt="" />
+        </div>
+        <div class="conteiner">
+          
+        <div class="title-results-conteiner">
           <h2 class="title">
             <span class="text-bolt">Ваши результаты</span><br />
             от мероприятия
           </h2>
+        </div>
+          
           <p class="text">
             В результате этого бесплатного онлайн-интенсива вы поймете, что мешает вам зарабатывать на бирже и узнаете универсальный торговый метод,
             который позволяет прибыльно торговать в любых рыночных условиях с минимальными рисками.
           </p>
-          <button type="button">
+          <div class="hero-button-conteiner">
+          <button class="button" type="button">
             Я нацелен на результат!
             <!-- <svg widht="15" height="25">
               <use href="./images/main/arrow.svg#icon-arrow"></use>
             </svg> -->
+          </div>
           </button>
         </div>
       </section>
@@ -143,6 +155,36 @@
             <img class="background-programm" src="./images/main/programm/bg.png" alt="" />
             <div class="conteiner-circle">
               <div class="circle">
+              <div class="item-circle"><span class="number1">1</span></div>
+              <div class="item-circle"><span class="number">2</span></div>
+              <div class="item-circle"><span class="number">3</span></div>
+              <div class="item-circle"><span class="number">4</span></div>
+              <div class="item-circle"><span class="number">5</span></div>
+              <div class="item-circle"><span class="number">6</span></div>
+              <div class="item-circle"><span class="number">7</span></div>
+              <div class="item-circle"><span class="number">8</span></div>
+              <div class="item-circle"><span class="number">9</span></div>
+              <div class="text-circle"><p>Кто зарабатывает на<br> колебаниях цен, и <span class="text-accent">почему не<br> получается</span> 
+                у большинства
+               </p> </div>
+              <div class="text-circle"><p><span class="text-accent">Планируем трейды</span> так,<br> чтобы не жалеть ни об<br> одном из них
+              </p> </div>
+              <div class="text-circle"><p>Необходимые<br> условия, чтобы начать<br><span class="text-accent">зарабатывать на бирже</span> 
+              </p> </div>
+              <div class="text-circle"><p>Как найти слабые места<br> торговой системы и<br><span class="text-accent"> увеличить
+                доходность</span></p> </div>
+              <div class="text-circle"><p>Как<span class="text-accent"> минимизировать<br> риски</span> и не слить депозит
+              </p> </div>
+              <div class="text-circle"><p>Когда пора<br><span class="text-accent"> фиксировать<br> прибыль</span>
+              </p> </div>
+              <div class="text-circle"><p>Как найти<span class="text-accent"> оптимальную<br> точку</span> входа с<br> минимальным риском
+              </p> </div>
+              <div class="text-circle"><p>Контроль<br><span class="text-accent"> эмоционального<br></span> состояния трейдера
+              </p> </div>
+              <div class="text-circle"><p><span class="text-accent">Что или кто</span><br> движет цены
+              </p> </div>
+            </div>
+              <!-- <div class="circle">
                 <div class="circle-body">
                   <p class="text">
                     Кто зарабатывает н<br />
@@ -153,10 +195,10 @@
                     >
                     у большинства
                   </p>
-                  <div class="item-circle">1</div>
+                  <div class="item-circle"><span>1</span></div>
                 </div>
                 <div class="circle-body">
-                  <div class="item-circle">2</div>
+                  <div class="item-circle"><span>2</span></div>
                   <p class="text">
                     <span class="text-accent">Планируем трейды</span> так,<br />
                     чтобы не жалеть ни об<br />
@@ -165,7 +207,7 @@
                 </div>
 
                 <div class="circle-body">
-                  <div class="item-circle">3</div>
+                  <div class="item-circle"><span>3</span></div>
                   <p class="text">
                     Необходимые<br />
                     условия, чтобы начать<br /><span class="text-accent"
@@ -175,7 +217,7 @@
                   </p>
                 </div>
                 <div class="circle-body">
-                  <div class="item-circle">4</div>
+                  <div class="item-circle"><span>4</span></div>
                   <p class="text">
                     Как найти слабые места<br />
                     торговой системы и<br />
@@ -183,7 +225,7 @@
                   </p>
                 </div>
                 <div class="circle-body">
-                  <div class="item-circle">5</div>
+                  <div class="item-circle"><span>5</span></div>
                   <p class="text">
                     Как
                     <span class="text-accent"
@@ -194,7 +236,7 @@
                   </p>
                 </div>
                 <div class="circle-body">
-                  <div class="item-circle">6</div>
+                  <div class="item-circle"><span>6</span></div>
                   <p class="text">
                     Когда пора<br />
                     <span class="text-accent"
@@ -204,35 +246,28 @@
                   </p>
                 </div>
                 <div class="circle-body">
-                  <div class="item-circle">7</div>
                   <p class="text">
                     Как найти
-                    <span class="text-accent"
-                      >оптимальную<br />
-                      точку входа</span
-                    >
-                    с<br />
-                    минимальным риском
+                    <span class="text-accent">оптимальную<br/>точку входа</span>с<br/>минимальным риском
                   </p>
+                
+                  <div class="item-circle"><span>7</span></div>
                 </div>
                 <div class="circle-body">
-                  <div class="item-circle">8</div>
                   <p class="text">
-                    Контроль<br />
-                    <span class="text-accent"
-                      >эмоционального<br />
-                      состояния</span
-                    >
-                    трейдера
+                    Контроль<br/><span class="text-accent">эмоционального<br />состояния</span>трейдера
                   </p>
+                  <div class="item-circle"><span>8</span></div>
+                  
                 </div>
                 <div class="circle-body">
-                  <div class="item-circle">9</div>
                   <p class="text">
                     <span class="text-accent">Что или кто<br /> </span> движет цены
                   </p>
+                  <div class="item-circle"><span>9</span></div>
+                  
                 </div>
-              </div>
+              </div> -->
             </div>
             <button class="programm-button" type="button">Хочу узнать как зарабатывать на бирже!</button>
           </div>
@@ -241,16 +276,15 @@
       <!-- treiner -->
       <section class="treiner">
         <div class="conteiner">
-          <div class="left-side">
+          
             <div class="gallery">
               <img class="image-treiner" width="320" height="570" src="./images/main/Vladimir.jpg" alt="фото тренера" />
-            </div>
-            <div class="gallery">
-              <img class="image-treiner" width="275" height="161" src="./images/main/Vladimir2.jpg" alt="фото тренера" />
+            <img class="image-treiner" width="275" height="161" src="./images/main/Vladimir2.jpg" alt="фото тренера" />
               <img class="image-treiner" width="275" height="379" src="./images/main/Vladimir3.jpg" alt="фото тренера" />
+              
             </div>
-          </div>
-          <div class="right-treiner-conteiner"></div>
+          
+          
           <div class="right-side">
             <h2 class="title">
               Тренер<br />
