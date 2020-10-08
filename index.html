@@ -24,10 +24,8 @@
         </nav>
         <button type="button">Регистрация</button>
       </div>
-    </header>
-    <!-- <main> -->
-    <main>
       <!-- hero -->
+
       <section class="hero">
         <div class="conteiner">
           <h1 class="title">
@@ -41,8 +39,10 @@
           <button class="hero-button" type="button">Хочу узнать как зарабатывать на бирже!</button>
         </div>
       </section>
+
       <section class="results">
         <div class="conteiner">
+          <img class="background-results" src="./images/header/Vector.png" alt="" />
           <h2 class="title">
             <span class="text-bolt">Ваши результаты</span><br />
             от мероприятия
@@ -51,67 +51,189 @@
             В результате этого бесплатного онлайн-интенсива вы поймете, что мешает вам зарабатывать на бирже и узнаете универсальный торговый метод,
             который позволяет прибыльно торговать в любых рыночных условиях с минимальными рисками.
           </p>
-          <button type="button">Я нацелен на результат!<img class="arrow" src="./images/main/arrow.svg" alt="стрелка вниз" /></button>
+          <button type="button">
+            Я нацелен на результат!
+            <!-- <svg widht="15" height="25">
+              <use href="./images/main/arrow.svg#icon-arrow"></use>
+            </svg> -->
+          </button>
         </div>
       </section>
+    </header>
+    <main>
+      <!-- <main> -->
       <!-- advantages -->
-      <section class="advantages">
-        <div class="conteiner">
-          <h2 class="title">Почему вам следует <span class="text-bolt">записаться на Онлайн интенсив</span></h2>
-          <ul class="item">
-            <li class="text">Хотите зарабатывать трейдингом, но не знаете с чего начать?</li>
-            <li class="text">Или уже начали, но результат не радует?</li>
-            <li class="text">Зарабатываете, и тут же теряете все заработанное?</li>
-            <li class="text">Путаетесь в собственных прогнозах и сомневаетесь в решениях?</li>
-            <li class="text">Хотите зарабатывать больше, а волноваться меньше?</li>
-          </ul>
-        </div>
-      </section>
-      <!-- programm -->
-      <section class="programm">
-        <div class="conteiner">
-          <h2 class="title"><span class="text-bolt">Программа</span> вебинара</h2>
-          <ul>
-            <li>
-              <p class="text">Кто зарабатывает на колебаниях цен, и <span class="text-accent">почему не получается</span> у большинства</p>
-              <a href=""></a>
-            </li>
-            <li>
-              <p class="text"><span class="text-accent">Планируем трейды</span> так, чтобы не жалеть ни об одном из них</p>
-              <a href=""></a>
-            </li>
-            <li>
-              <p class="text">Необходимые условия, чтобы начать <span class="text-accent">зарабатывать на бирже</span></p>
-              <a href=""></a>
-            </li>
-            <li>
-              <p class="text">Как найти слабые места торговой системы и <span class="text-accent">увеличить доходность</span></p>
-              <a href=""></a>
-            </li>
-            <li>
-              <p class="text">Как <span class="text-accent">минимизировать риски</span> и не слить депозит</p>
-              <a href=""></a>
-            </li>
-            <li>
-              <p class="text">Когда пора <span class="text-accent">фиксировать прибыль</span></p>
-              <a href=""></a>
-            </li>
-            <li>
-              <p class="text">Как найти <span class="text-accent">оптимальную точку входа</span> с минимальным риском</p>
-              <a href=""></a>
-            </li>
-            <li>
-              <p class="text">Контроль <span class="text-accent">эмоционального состояния</span> трейдера</p>
-              <a href=""></a>
-            </li>
-            <li>
-              <p class="text"><span class="text-accent">Что или кто</span> движет цены</p>
-              <a href=""></a>
-            </li>
-          </ul>
-          <button class="programm-button" type="button">Хочу узнать как зарабатывать на бирже!</button>
-        </div>
-      </section>
+      <div class="background-main">
+        <section class="advantages">
+          <div class="conteiner">
+            <h2 class="title">Почему вам следует <span class="text-bolt">записаться на Онлайн интенсив</span></h2>
+            <div class="area-first">
+              <div class="row">
+                <div class="item">
+                  <div class="border">
+                    <img width="65" height="65" src="./svg/main/advantages/1.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text">
+                  Хотите зарабатывать<br />
+                  трейдингом, но не знаете<br />
+                  с чего начать?
+                </p>
+              </div>
+              <div class="row">
+                <div class="item">
+                  <div class="border">
+                    <img width="65" height="65" src="./svg/main/advantages/2.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text">
+                  Или уже начали, но<br />
+                  результат не радует?
+                </p>
+              </div>
+              <div class="row">
+                <div class="item">
+                  <div class="border">
+                    <img width="65" height="65" src="./svg/main/advantages/3.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text">
+                  Зарабатываете, и тут<br />
+                  же теряете все<br />
+                  заработанное?
+                </p>
+              </div>
+            </div>
+            <div class="area-second">
+              <div class="row">
+                <div class="item">
+                  <div class="border">
+                    <img width="65" height="65" src="./svg/main/advantages/4.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text">
+                  Путаетесь в собственных<br />
+                  прогнозах и сомневаетесь<br />
+                  в решениях?
+                </p>
+              </div>
+              <div class="row">
+                <div class="item">
+                  <div class="border">
+                    <img width="65" height="65" src="./svg/main/advantages/5.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text">
+                  Хотите зарабатывать<br />
+                  больше, а волноваться<br />
+                  меньше?
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- programm -->
+        <section class="programm">
+          <div class="conteiner">
+            <h2 class="title"><span class="text-bolt">Программа </span>вебинара</h2>
+            <img class="background-programm" src="./images/main/programm/bg.png" alt="" />
+            <div class="conteiner-circle">
+              <div class="circle">
+                <div class="circle-body">
+                  <p class="text">
+                    Кто зарабатывает н<br />
+                    колебаниях цен, и
+                    <span class="text-accent"
+                      >почему не<br />
+                      получается</span
+                    >
+                    у большинства
+                  </p>
+                  <div class="item-circle">1</div>
+                </div>
+                <div class="circle-body">
+                  <div class="item-circle">2</div>
+                  <p class="text">
+                    <span class="text-accent">Планируем трейды</span> так,<br />
+                    чтобы не жалеть ни об<br />
+                    одном из них
+                  </p>
+                </div>
+
+                <div class="circle-body">
+                  <div class="item-circle">3</div>
+                  <p class="text">
+                    Необходимые<br />
+                    условия, чтобы начать<br /><span class="text-accent"
+                      >зарабатывать на<br />
+                      бирже</span
+                    >
+                  </p>
+                </div>
+                <div class="circle-body">
+                  <div class="item-circle">4</div>
+                  <p class="text">
+                    Как найти слабые места<br />
+                    торговой системы и<br />
+                    <span class="text-accent">увеличить доходность</span>
+                  </p>
+                </div>
+                <div class="circle-body">
+                  <div class="item-circle">5</div>
+                  <p class="text">
+                    Как
+                    <span class="text-accent"
+                      >минимизировать<br />
+                      риски</span
+                    >
+                    и не слить депозит
+                  </p>
+                </div>
+                <div class="circle-body">
+                  <div class="item-circle">6</div>
+                  <p class="text">
+                    Когда пора<br />
+                    <span class="text-accent"
+                      >фиксировать<br />
+                      прибыль</span
+                    >
+                  </p>
+                </div>
+                <div class="circle-body">
+                  <div class="item-circle">7</div>
+                  <p class="text">
+                    Как найти
+                    <span class="text-accent"
+                      >оптимальную<br />
+                      точку входа</span
+                    >
+                    с<br />
+                    минимальным риском
+                  </p>
+                </div>
+                <div class="circle-body">
+                  <div class="item-circle">8</div>
+                  <p class="text">
+                    Контроль<br />
+                    <span class="text-accent"
+                      >эмоционального<br />
+                      состояния</span
+                    >
+                    трейдера
+                  </p>
+                </div>
+                <div class="circle-body">
+                  <div class="item-circle">9</div>
+                  <p class="text">
+                    <span class="text-accent">Что или кто<br /> </span> движет цены
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="programm-button" type="button">Хочу узнать как зарабатывать на бирже!</button>
+          </div>
+        </section>
+      </div>
       <!-- treiner -->
       <section class="treiner">
         <div class="conteiner">
@@ -148,99 +270,109 @@
           </div>
         </div>
       </section>
-      <!-- reviews -->
+    </main>
+    <!-- reviews -->
+
+    <footer class="footer">
       <section class="reviews">
+        
         <div class="conteiner">
+          <div class="background-item-top">
+            <img src="./images/footer/bg1.png" alt="">
+          </div>
+          <div class="background-item-botton">
+            <img src="./images/footer/bg2.png" alt="">
+          </div>
           <div class="menu-review">
             <h2 class="title"><span class="text-bolt">Отзывы</span> участников</h2>
-            <button type="button">
-              <svg width="15" height="25" class="left-arrow">
-                <use class="icon" href="./images/main/arrow.svg"></use>
+            <div class="button">
+            <button class="left-arrow" type="button">
+              <svg width="15" height="25">
+                <use class="icon" href="./svg/footer/sprite-arrow.svg#icon-arrow-left"></use>
               </svg>
             </button>
-            <button type="button">
-              <svg width="15" height="25" class="left-arrow">
-                <use class="icon" href="./images/main/arrow.svg"></use>
+            <button class="right-arrow" type="button">
+              <svg width="15" height="25">
+                <use class="icon" href="./svg/footer/sprite-arrow.svg#icon-arrow-right"></use>
               </svg>
             </button>
           </div>
-
-          <ul class="item">
-            <li class="list-reviews">
-              <div class="info">
-                <img class="foto" src="./images/main/review1.jpg" alt="фото клиента" />
-                <span>20.09.2020</span>
-                <ul class="social-item">
-                  <li class="social-list">
-                    <a href=""></a>
-                    <svg>
-                      <use href="./svg/main/sprite.svg#icon-telegram"></use>
-                    </svg>
-                  </li>
-                  <li class="social-list">
-                    <a href=""></a>
-                    <svg>
-                      <use href="./svg/main/sprite.svg#icon-viber"></use>
-                    </svg>
-                  </li>
-                  <li class="social-list">
-                    <a href=""></a>
-                    <svg>
-                      <use href="./svg/main/sprite.svg#icon-facebook"></use>
-                    </svg>
-                  </li>
-                </ul>
-              </div>
-              <div class="review">
-                <h3 class="name">Антон Гудков</h3>
-                <p class="text-review">
-                  Отличительная особенность преподавания Владимира это объяснение принципов, поскольку невозможно применять фиксированные действия к
-                  постоянно изменяющемуся рынку.
-                </p>
-              </div>
-            </li>
-
-            <li class="list-reviews">
-              <div class="info">
-                <img class="foto" src="./images/main/review1.jpg" alt="фото клиента" />
-                <span>20.09.2020</span>
-                <ul class="social-item">
-                  <li class="social-list">
-                    <a href=""></a>
-                    <svg>
-                      <use href="./svg/main/sprite.svg#icon-telegram"></use>
-                    </svg>
-                  </li>
-                  <li class="social-list">
-                    <a href=""></a>
-                    <svg>
-                      <use href="./svg/main/sprite.svg#icon-viber"></use>
-                    </svg>
-                  </li>
-                  <li class="social-list">
-                    <a href=""></a>
-                    <svg>
-                      <use href="./svg/main/sprite.svg#icon-facebook"></use>
-                    </svg>
-                  </li>
-                </ul>
-              </div>
-              <div class="review">
-                <h3 class="name">Антон Гудков</h3>
-                <p class="text-review">
-                  Отличительная особенность преподавания Владимира это объяснение принципов, поскольку невозможно применять фиксированные действия к
-                  постоянно изменяющемуся рынку.
-                </p>
-              </div>
-            </li>
-          </ul>
-        </div>
+          </div>
+          
+          <div class="menu-list">
+          <div class="info">
+            <div class="left-review">
+              <img width="96" height="96" class="foto" src="./images/main/review1.jpg" alt="фото клиента" />
+              <span class="date">20.09.2020</span>
+              <ul class="social-item">
+                <li class="social-list">
+                  <a href=""></a>
+                  <svg>
+                    <use href="./svg/main/sprite.svg#icon-telegram"></use>
+                  </svg>
+                </li>
+                <li class="social-list">
+                  <a href=""></a>
+                  <svg>
+                    <use href="./svg/main/sprite.svg#icon-viber"></use>
+                  </svg>
+                </li>
+                <li class="social-list">
+                  <a href=""></a>
+                  <svg>
+                    <use href="./svg/main/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+            <div class="review">
+              <h3 class="name">Антон Гудков</h3>
+              <p class="text-review">
+                Отличительная особенность преподавания Владимира это объяснение принципов, поскольку невозможно применять фиксированные действия к
+                постоянно изменяющемуся рынку.
+              </p>
+            </div>
+          </div>
+          <div class="info">
+            <div class="left-review">
+              <img class="foto" src="./images/main/review1.jpg" alt="фото клиента" />
+              <span class="date">20.09.2020</span>
+              <ul class="social-item">
+                <li class="social-list">
+                  <a href=""></a>
+                  <svg>
+                    <use href="./svg/main/sprite.svg#icon-telegram"></use>
+                  </svg>
+                </li>
+                <li class="social-list">
+                  <a href=""></a>
+                  <svg>
+                    <use href="./svg/main/sprite.svg#icon-viber"></use>
+                  </svg>
+                </li>
+                <li class="social-list">
+                  <a href=""></a>
+                  <svg>
+                    <use href="./svg/main/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+            <div class="review">
+              <h3 class="name">Антон Гудков</h3>
+              <p class="text-review">
+                Отличительная особенность преподавания Владимира это объяснение принципов, поскольку невозможно применять фиксированные действия к
+                постоянно изменяющемуся рынку.
+              </p>
+            </div>
+          </div>
+          
+          </div>
+        
       </section>
-    </main>
 
-    <!-- <footer> -->
+      <!-- <footer> -->
 
-    <footer>
       <!-- registration -->
       <section class="registration">
         <div class="conteiner">
