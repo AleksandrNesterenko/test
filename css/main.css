@@ -298,6 +298,40 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
+.advantages .title-advantages-conteiner {
+  position: relative;
+  width: 937px;
+  height: 73px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 44px;
+  padding: 10px 0;
+}
+
+.advantages .title-advantages-conteiner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 79px;
+  height: 27px;
+  display: block;
+  border: 1px solid #ff5b1e;
+  border-right: none;
+  border-bottom: none;
+}
+.advantages .title-advantages-conteiner::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 79px;
+  height: 27px;
+  display: block;
+  border: 1px solid #ff5b1e;
+  border-left: none;
+  border-top: none;
+}
 
 .advantages .title {
   margin-bottom: 44.06px;
@@ -376,7 +410,8 @@ button {
 }
 
 .programm .conteiner-circle {
-  width: 1101px;
+  width: 1105px;
+
   margin: 0 auto;
   position: relative;
 }
@@ -506,8 +541,43 @@ button {
   cursor: pointer;
 }
 
+.title-programm-conteiner {
+  position: relative;
+  width: 420px;
+  height: 73px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 159px;
+  padding: 10px 0;
+}
+
+.programm .title-programm-conteiner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 79px;
+  height: 27px;
+  display: block;
+  border: 1px solid #ff5b1e;
+  border-right: none;
+  border-bottom: none;
+}
+
+.programm .title-programm-conteiner::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 79px;
+  height: 27px;
+  display: block;
+  border: 1px solid #ff5b1e;
+  border-left: none;
+  border-top: none;
+}
+
 .programm .title {
-  margin-bottom: 180px;
   font-family: Oswald;
   font-weight: 300;
   font-size: 35px;
@@ -536,9 +606,7 @@ button {
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 50%);
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
+
   margin-top: 164.5px;
 
   outline: none;
@@ -582,6 +650,11 @@ button {
   margin-right: 65px;
   width: 525px;
   height: 570px;
+}
+.treiner .right-treiner-conteiner {
+  position: relative;
+  width: 662px;
+  height: 709px;
 }
 
 .left-side .image-treiner {
@@ -697,19 +770,47 @@ button {
   margin-bottom: 7px;
 }
 
-.menu-review {
-  text-align: center;
+.title-review-conteiner {
+  position: relative;
+  width: 408px;
+  height: 73px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 33px;
+  text-align: center;
+  padding: 10px 0;
 }
 
-.menu-review > .title {
+.reviews .title-review-conteiner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 79px;
+  height: 27px;
+  display: block;
+  border: 1px solid #ff5b1e;
+  border-right: none;
+  border-bottom: none;
+}
+
+.reviews .title-review-conteiner::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 79px;
+  height: 27px;
+  display: block;
+  border: 1px solid #ff5b1e;
+  border-left: none;
+  border-top: none;
+}
+
+.title-review-conteiner > .title {
   width: 408px;
   height: 73px;
   margin-right: 247px;
-}
-
-.menu-review .button {
-  text-align: end;
 }
 
 .reviews .title {
@@ -726,6 +827,13 @@ button {
 
 .reviews .text-bolt {
   font-weight: 700;
+}
+.reviews .button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 20px;
+  padding-right: 15px;
 }
 
 .reviews button {
@@ -749,6 +857,8 @@ button {
 }
 
 .reviews svg {
+  display: block;
+  margin: 0 auto;
   fill: #000000;
   width: 21.12px;
   height: 21.12px;
@@ -893,14 +1003,6 @@ button {
   width: 60px;
   border-left: 1px solid rgba(255, 255, 255, 0.3);
 }
-
-/* footer-navigation */
-/* .reviews {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-image: url(../images/footer/bg1.png);
-} */
 
 .footer {
   background-image: url(../images/footer/bg.png);
