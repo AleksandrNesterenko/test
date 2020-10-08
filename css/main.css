@@ -463,6 +463,12 @@ button {
   border-radius: 50%;
   background-color: #19234c;
 }
+
+.circle .item-circle:hover {
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
 .circle .number1 {
   display: block;
   padding: 10px 25px;
@@ -651,12 +657,9 @@ button {
 
 .programm button {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left: 50%;
   transform: translate(-50%, 50%);
-
-  margin-top: 164.5px;
-
   outline: none;
   color: var(--secondary-text-color);
   min-width: 540px;
@@ -686,22 +689,62 @@ button {
 }
 
 /* treiner */
-
-.treiner .left-side {
-  flex-wrap: nowrap;
-  margin-right: 65px;
-  width: 525px;
-  height: 570px;
+.treiner {
+  text-align: center;
 }
+
+.treiner .conteiner {
+  padding-top: 180px;
+  padding-bottom: 165px;
+  width: 1155px;
+  display: inline-block;
+}
+
 .treiner .right-treiner-conteiner {
   position: relative;
   width: 662px;
   height: 709px;
 }
 
-.left-side .gallery {
+.treiner .gallery {
+  left: -100px;
   position: relative;
-  /* left: -100px; */
+  display: inline-block;
+}
+
+.gallery .image-treiner {
+  display: inline-block;
+}
+
+.gallery .image-treiner275 {
+  display: block;
+}
+
+.gallery img {
+  display: block;
+}
+
+.foto + .foto {
+  margin-top: 30px;
+}
+
+.image-treiner + .image-treiner {
+  margin-left: 30px;
+}
+
+.treiner .right-side {
+  position: relative;
+  left: -30px;
+  display: inline-block;
+  width: 490px;
+  text-align: start;
+}
+
+.treiner .background-right-side {
+  position: absolute;
+  top: -70px;
+  left: -105px;
+  z-index: -1;
 }
 
 .treiner .title {
@@ -787,6 +830,7 @@ button {
   position: relative;
   top: 0;
   left: 0;
+
   right: 150px;
   padding-bottom: 44px;
   display: block;
@@ -879,6 +923,15 @@ button {
 }
 .reviews button:not(:first-child) {
   margin-left: 25px;
+}
+
+.reviews button:hover {
+  border-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.reviews button:hover svg {
+  fill: var(--accent-color);
 }
 
 .reviews .icon {
@@ -1048,12 +1101,14 @@ button {
 }
 
 .footer-navigation .logo {
-  display: block;
+  display: inline-block;
+  vertical-align: top;
   fill: #ffffff;
   margin-right: 137px;
 }
 
 .footer-navigation .item-site {
+  display: inline-block;
   margin-right: 78px;
 
   font-weight: 400;
@@ -1066,6 +1121,8 @@ button {
 }
 
 .footer-navigation .item-programm {
+  display: inline-block;
+  vertical-align: top;
   width: 216px;
   margin-right: 87px;
 
@@ -1079,20 +1136,24 @@ button {
 }
 
 .footer-address {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  display: inline-block;
+  vertical-align: top;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.44;
 }
+.footer-address > * {
+  display: block;
+}
+
 .footer-navigation a {
   color: #ffffff;
 }
 .footer-address .icon-flag {
   margin-right: 10px;
 }
+
 .footer-address h3 {
   color: #ffffff;
 }
