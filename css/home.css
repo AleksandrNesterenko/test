@@ -1,0 +1,66 @@
+* основной цвет текста: #ffffff */
+/* вспомагательный цвет текста: #000000; */
+/* цвет акцента #03E0EB */
+
+:root {
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #000000;
+  --accent-color: #03e0eb;
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url(/fonts/ProximaNova-Regular.ttf);
+}
+
+*,
+::before,
+::after {
+  background-color: #19234c;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--primary-text-color);
+
+  font-family: Proxima Nova, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: oswald, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+.conteiner {
+  max-width: 1160px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* ======header======= */
+
+.navigation {
+  display: inline-block;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.header {
+  display: inline-block;
+  vertical-align: top;
+}

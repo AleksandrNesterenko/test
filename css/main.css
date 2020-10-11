@@ -22,8 +22,6 @@
 
 body {
   color: var(--primary-text-color);
-  width: 1920px;
-  margin: 0 auto;
 
   font-family: Proxima Nova, sans-serif;
 }
@@ -47,17 +45,16 @@ button {
 
 .conteiner {
   /* display: flex; */
-  width: 1140px;
+  max-width: 1160px;
   padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 /* ======header======= */
-.header {
+.background-header {
   background-image: url(../images/header/header-bg.png);
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: top;
 }
 
 .header .conteiner {
@@ -187,7 +184,7 @@ button {
 
 .results .background-result-conteiner {
   position: relative;
-  width: 1920px;
+  /* width: 1920px; */
   margin: 0 auto;
 }
 
@@ -266,6 +263,11 @@ button {
   line-height: 1.21px;
 }
 
+.results .results-button::after {
+  content: url(../svg/header/arrow.svg);
+  margin-left: 33.5px;
+}
+
 .results svg {
   margin-left: 33.5px;
 }
@@ -279,9 +281,13 @@ button {
   background-position: top;
 }
 
+.advantages {
+  padding-bottom: 136px;
+}
+
 .advantages .conteiner {
   position: relative;
-  padding-bottom: 136px;
+
   display: block;
   background-image: url(../images/main/advantages/bg.png);
   background-repeat: no-repeat;
@@ -423,9 +429,7 @@ button {
 
 .programm .conteiner {
   position: relative;
-  height: 973px;
   display: block;
-  padding-bottom: 59px;
 }
 
 .programm .background-programm {
@@ -608,7 +612,6 @@ button {
 .title-programm-conteiner {
   position: relative;
   width: 420px;
-  height: 73px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 159px;
@@ -656,10 +659,8 @@ button {
 }
 
 .programm button {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translate(-50%, 50%);
+  display: block;
+  margin: 0 auto;
   outline: none;
   color: var(--secondary-text-color);
   min-width: 540px;
@@ -676,6 +677,10 @@ button {
   line-height: 1.21;
 }
 
+.programm .programm-button {
+  margin-top: 180px;
+}
+
 .programm .programm-button:hover,
 .programm .programm-button:focus {
   cursor: pointer;
@@ -690,12 +695,12 @@ button {
 
 /* treiner */
 .treiner {
+  padding-top: 180px;
+  padding-bottom: 165px;
   text-align: center;
 }
 
 .treiner .conteiner {
-  padding-top: 180px;
-  padding-bottom: 165px;
   width: 1155px;
   display: inline-block;
 }
@@ -734,6 +739,7 @@ button {
 
 .treiner .right-side {
   position: relative;
+  top: -70px;
   left: -30px;
   display: inline-block;
   width: 490px;
@@ -962,7 +968,7 @@ button {
   border: 1px solid #dddddd;
 
   border-radius: 10px;
-
+  position: relative;
   height: 100%;
 }
 
@@ -986,6 +992,13 @@ button {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.22;
+}
+
+.reviews .info:after {
+  position: absolute;
+  top: 19px;
+  right: 17.2px;
+  content: url(../svg/main/reviews/Vector.svg);
 }
 
 .review .text-review {
@@ -1087,17 +1100,24 @@ button {
   border-left: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.footer {
+.footer-background {
   background-image: url(../images/footer/bg.png);
   background-repeat: no-repeat;
-  background-position: center -530px;
+  background-position: center bottom;
 }
 
 .footer-navigation .conteiner {
+  position: relative;
+
   padding-top: 43px;
   padding-bottom: 34px;
   border-top: 1px solid rgba(221, 221, 221, 0.5);
   border-bottom: 1px solid rgba(221, 221, 221, 0.5);
+}
+
+.footer .footer-conteiner {
+  width: 1340px;
+  margin-left: auto;
 }
 
 .footer-navigation .logo {
@@ -1158,18 +1178,38 @@ button {
   color: #ffffff;
 }
 
-.footer-navigation .social-item {
-  display: flex;
+.footer-navigation .social-list {
+  display: inline-block;
   margin-top: 13px;
 }
 
 .footer-navigation .social-list:not(:last-child) {
-  display: flex;
   margin-right: 11.55px;
 }
 .social-item a:hover,
 .social-item a:focus {
   filter: drop-shadow(0px 4px 20px #03e0eb);
+}
+
+.footer .button-up {
+  position: sticky;
+  top: 40%;
+  left: 90%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.reviews .button-reviews {
+  position: absolute;
+  bottom: -45px;
+  left: 500px;
+  width: 140px;
+  height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .footer-navigation .copyright {

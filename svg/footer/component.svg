@@ -1,0 +1,12 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-component" viewBox="0 0 160 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.1429" d="M18.474 5.429l7.918 13.714c1.1 1.905-0.275 4.286-2.474 4.286h-15.836c-2.199 0-3.574-2.381-2.474-4.286l7.918-13.714c1.1-1.905 3.849-1.905 4.949 0z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.1429" d="M15.505 8.857c0.22-0.381 0.77-0.381 0.99 0l5.939 10.286c0.22 0.381-0.055 0.857-0.495 0.857h-11.877c-0.44 0-0.715-0.476-0.495-0.857l5.938-10.286z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.1429" d="M45.526 5.429c1.1-1.905 3.849-1.905 4.949 0l7.918 13.714c1.1 1.905-0.275 4.286-2.474 4.286h-15.836c-2.199 0-3.574-2.381-2.474-4.286l7.918-13.714z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.1429" d="M77.526 5.429c1.1-1.905 3.849-1.905 4.949 0l7.918 13.714c1.1 1.905-0.275 4.286-2.474 4.286h-15.836c-2.199 0-3.574-2.381-2.474-4.286l7.918-13.714z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.1429" d="M109.526 5.429c1.1-1.905 3.849-1.905 4.949 0l7.918 13.714c1.101 1.905-0.274 4.286-2.474 4.286h-15.836c-2.199 0-3.574-2.381-2.474-4.286l7.918-13.714z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.1429" d="M141.526 5.429c1.099-1.905 3.849-1.905 4.949 0l7.918 13.714c1.101 1.905-0.274 4.286-2.474 4.286h-15.835c-2.2 0-3.575-2.381-2.474-4.286l7.918-13.714z"></path>
+</symbol>
+</defs>
+</svg>
